@@ -4,9 +4,11 @@ title: About
 permalink: /about/
 ---
 
-David Bäcker ist Kurator und Kunsthistoriker mit Arbeitserfahrung im Museums-, Galerie- und Festivalbereich. Seine kuratorische Praxis konzentriert sich auf zeitgenössische Kunst sowie auf interdisziplinäre Formate an der Schnittstelle von bildender und performativer Praxis.
+David Bäcker is a curator and art historian based in Münster, Germany. His work focuses on contemporary art and on interdisciplinary formats at the intersection of visual and performative practices.
 
-In seinen Projekten verbindet er konzeptuelle Recherche, Ausstellungskonzeption und organisatorische Umsetzung. Neben kuratorischen Tätigkeiten verfügt er über umfangreiche Erfahrung in der Produktion und Realisierung von Ausstellungen, einschließlich Art Handling und Ausstellungsaufbau.
+He has worked with museums, galleries, and cultural festivals on the development and realization of exhibitions and artistic projects. His practice combines curatorial research and exhibition-making with experience in project organization, production, and art handling.
+
+Bäcker studied art history in Berlin and Tel Aviv.
 
 ### More Information
 
