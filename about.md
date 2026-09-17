@@ -12,4 +12,4 @@ Bäcker studied art history in Berlin and Tel Aviv.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[baecker_curating@posteo.de](mailto:baecker_curating@posteo.de)
