@@ -247,38 +247,37 @@ nav {
   padding-bottom: 28px !important;
 }
 
-/* WORK
--------------------------------------------------- */
-
+/* WORK */
 .work-list {
-  margin-top: 40px;
+  margin-top: 48px;
   border-top: 1px solid var(--text);
 }
 
 .work-item {
-  display: grid;
-  grid-template-columns: 140px 1.6fr 1fr;
-  gap: 30px;
-  padding: 18px 0;
+  display: block;
+  padding: 34px 0 38px;
   border-bottom: 1px solid var(--line);
-  align-items: baseline;
-}
-
-.work-year {
-  color: var(--blue);
-  font-size: 14px;
-  font-weight: 500;
 }
 
 .work-title {
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+  font-size: clamp(26px, 2.4vw, 36px);
+  line-height: 1.08;
+  font-weight: 520;
+  letter-spacing: -0.035em;
 }
 
-.work-place {
-  font-size: 16px;
+.work-meta {
+  font-size: 15px;
+  line-height: 1.4;
   color: var(--muted);
+}
+
+.work-role {
+  margin-top: 3px;
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--blue);
 }
 
 /* MOBILE
