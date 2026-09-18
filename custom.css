@@ -223,7 +223,24 @@ nav a:hover {
 footer {
   padding: 22px 0 42px !important;
 }
+   .site-name {
+  font-size: 21px !important;
+}
 
+.site-description {
+  font-size: 13px !important;
+  margin-top: 8px !important;
+}
+
+nav {
+  font-size: 14px !important;
+  gap: 30px;
+}
+
+.masthead {
+  padding-top: 30px !important;
+  padding-bottom: 28px !important;
+}
 
 /* MOBILE
 -------------------------------------------------- */
@@ -268,21 +285,4 @@ footer {
     font-size: 18px;
   }
 
-   .site-name {
-  font-size: 21px !important;
-}
-
-.site-description {
-  font-size: 13px !important;
-  margin-top: 8px !important;
-}
-
-nav {
-  font-size: 14px !important;
-  gap: 30px;
-}
-
-.masthead {
-  padding-top: 30px !important;
-  padding-bottom: 28px !important;
 }
