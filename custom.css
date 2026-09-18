@@ -2,7 +2,7 @@
    First proper design pass
 -------------------------------------------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@75..100,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
 
 :root {
   --bg: #ffffff;
@@ -24,7 +24,7 @@ body {
   margin: 0;
   background: var(--bg) !important;
   color: var(--text) !important;
-  font-family: "Instrument Sans", Arial, sans-serif !important;
+  font-family: "DM Sans", Arial, sans-serif !important;
   font-size: 17px !important;
   line-height: 1.5 !important;
   -webkit-font-smoothing: antialiased;
@@ -70,7 +70,7 @@ a {
 
 .site-name {
   margin: 0 !important;
-  font-family: "Instrument Sans", Arial, sans-serif !important;
+  font-family: "DM Sans", Arial, sans-serif !important;
   font-size: 19px !important;
   line-height: 1 !important;
   font-weight: 650 !important;
@@ -148,7 +148,7 @@ nav a:hover {
   max-width: 1100px;
   margin: 110px 0 0 !important;
   color: var(--text) !important;
-  font-family: "Instrument Sans", Arial, sans-serif !important;
+  font-family: "DM Sans", Arial, sans-serif !important;
   font-size: clamp(42px, 5.2vw, 74px) !important;
   line-height: 0.99 !important;
   font-weight: 520 !important;
