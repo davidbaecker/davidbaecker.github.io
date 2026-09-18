@@ -152,7 +152,7 @@ nav a:hover {
   font-size: clamp(42px, 5.2vw, 74px) !important;
   line-height: 0.99 !important;
   font-weight: 520 !important;
-  letter-spacing: -0.055em !important;
+  letter-spacing: -0.035em !important;
 }
 
 
