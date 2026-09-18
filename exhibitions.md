@@ -1,10 +1,33 @@
 ---
 layout: page
-title: Exhibitions and Projects
+title: Work
 permalink: /exhibitions/
 ---
 
-### 2024-2026 **MAGISCHE FRAUEN** — Draiflessen Collection, Mettingen 
-### 2018-2019 **Hülle und Kern. Multiples von Joseph Beuys** — LWL-Museum für Kunst und Kultur, Münster 
-### 2015 **Artists For Refugees** — Halle (Saale) 
-### 2014-2015 Die (Un)Möglichkeit der Erkenntnis — Halle (Saale)  
+<div class="work-list">
+
+  <div class="work-item">
+    <span class="work-year">2024–2026</span>
+    <span class="work-title">MAGISCHE FRAUEN</span>
+    <span class="work-place">Draiflessen Collection, Mettingen</span>
+  </div>
+
+  <div class="work-item">
+    <span class="work-year">2018–2019</span>
+    <span class="work-title">Hülle und Kern. Multiples von Joseph Beuys</span>
+    <span class="work-place">LWL-Museum für Kunst und Kultur, Münster</span>
+  </div>
+
+  <div class="work-item">
+    <span class="work-year">2015</span>
+    <span class="work-title">Artists For Refugees</span>
+    <span class="work-place">Halle (Saale)</span>
+  </div>
+
+  <div class="work-item">
+    <span class="work-year">2014–2015</span>
+    <span class="work-title">Die (Un)Möglichkeit der Erkenntnis</span>
+    <span class="work-place">Halle (Saale)</span>
+  </div>
+
+</div>
