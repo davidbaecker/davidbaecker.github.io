@@ -177,7 +177,7 @@ img {
 /*********************/
 
 .wrapper-masthead {
-  margin-bottom: 90px;
+  margin-bottom: 55px;
 }
 
 .masthead {
@@ -291,6 +291,77 @@ nav {
 #main > ol,
 #main > blockquote {
   max-width: 680px;
+}
+
+/*********************/
+/* HOME              */
+/*********************/
+
+.home-intro {
+  min-height: 52vh;
+  padding: 20px 0 80px;
+}
+
+.home-kicker {
+  margin: 0 0 28px;
+  color: $accent;
+  font-family: $helveticaNeue;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.home-statement {
+  max-width: 980px;
+  margin: 0;
+  font-family: $helveticaNeue;
+  font-size: clamp(42px, 5.5vw, 76px);
+  font-weight: bold;
+  line-height: 1.02;
+  letter-spacing: -0.045em;
+
+  @include mobile {
+    font-size: 38px;
+    line-height: 1.05;
+  }
+}
+
+.home-about {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 60px;
+  padding: 40px 0 80px;
+  border-top: 1px solid $text;
+
+  @include mobile {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    padding: 28px 0 50px;
+  }
+}
+
+.section-label {
+  color: $accent;
+  font-family: $helveticaNeue;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.section-content {
+  max-width: 620px;
+  font-size: 19px;
+  line-height: 1.55;
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .posts > .post {
