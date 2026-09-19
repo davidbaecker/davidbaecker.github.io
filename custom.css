@@ -236,7 +236,11 @@ footer {
   padding: 22px 0 42px !important;
 }
    .site-name {
-  font-size: 21px !important;
+  font-size: 28px !important;
+  line-height: 0.9 !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.045em !important;
+  text-transform: uppercase;
 }
 
 .site-description {
