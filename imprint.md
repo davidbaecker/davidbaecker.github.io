@@ -3,13 +3,16 @@ layout: page
 title: Imprint
 permalink: /imprint/
 ---
+---
+layout: page
+title: Imprint
+permalink: /imprint/
+---
 
 <div class="imprint">
 
   <p>
-    <strong>David Bäcker</strong><br>
-    [Street and house number]<br>
-    [Postal code and city]<br>
+    David Bäcker<br>
     Germany
   </p>
 
