@@ -298,6 +298,41 @@ nav {
   color: var(--blue) !important;
 }
 
+/* WRITING
+-------------------------------------------------- */
+
+.writing-list {
+  margin-top: 48px;
+  border-top: 1px solid var(--text);
+}
+
+.writing-item {
+  padding: 26px 0 30px;
+  border-bottom: 1px solid var(--line);
+}
+
+.writing-type {
+  margin-bottom: 8px;
+  color: var(--blue);
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.writing-title {
+  margin-bottom: 5px;
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 520;
+  letter-spacing: -0.02em;
+}
+
+.writing-meta {
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.45;
+}
+
 /* MOBILE
 -------------------------------------------------- */
 
