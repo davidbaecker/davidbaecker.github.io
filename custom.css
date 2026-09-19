@@ -256,6 +256,29 @@ nav {
   align-items: flex-start;
 }
 
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.footer-right {
+  display: flex;
+  gap: 22px;
+}
+
+.footer-inner a {
+  color: var(--muted) !important;
+  text-decoration: none !important;
+}
+
+.footer-inner a:hover {
+  color: var(--blue) !important;
+}
+
 /* WORK */
 .work-list {
   margin-top: 48px;
