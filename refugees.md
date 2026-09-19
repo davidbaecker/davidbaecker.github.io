@@ -30,7 +30,7 @@ permalink: /work/refugees/
   <div class="project-text">
     <div class="section-label">Role</div>
     <div class="project-copy">
-      <p>Production management.</p>
+      <p>Curator</p>
     </div>
   </div>
 
