@@ -369,3 +369,78 @@ nav {
   margin-left: auto !important;
   margin-right: 0 !important;
 }
+
+/* PROJECT PAGES
+-------------------------------------------------- */
+
+.project {
+  padding-bottom: 80px;
+}
+
+.project-meta {
+  display: flex;
+  gap: 28px;
+  margin: 12px 0 48px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.project-hero,
+.project-image-wide {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  margin-bottom: 70px;
+}
+
+.placeholder {
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.project-text {
+  display: grid;
+  grid-template-columns: minmax(140px, 1fr) minmax(300px, 2fr);
+  gap: 40px;
+  padding: 0 0 70px;
+}
+
+.project-copy {
+  max-width: 720px;
+  font-size: 20px;
+  line-height: 1.48;
+  letter-spacing: -0.018em;
+}
+
+.project-copy p {
+  margin-top: 0;
+}
+
+.project-image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.project-image-grid .placeholder {
+  aspect-ratio: 4 / 3;
+}
+
+@media screen and (max-width: 700px) {
+  .project-meta {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .project-text {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .project-image-grid {
+    grid-template-columns: 1fr;
+  }
+}
