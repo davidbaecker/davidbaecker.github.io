@@ -1,5 +1,4 @@
 /* DAVID BÄCKER — PORTFOLIO
-   First proper design pass
 -------------------------------------------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
@@ -56,9 +55,21 @@ a {
   background: transparent !important;
 }
 
+.wrapper-masthead .container {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding-left: 72px !important;
+  padding-right: 72px !important;
+}
+
 .masthead {
-  min-height: 96px;
-  padding: 26px 0 22px !important;
+  width: 100% !important;
+  max-width: none !important;
+  min-height: 0;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding: 24px 0 22px !important;
   border-bottom: 1px solid var(--text);
   display: flex;
   align-items: flex-start;
@@ -67,15 +78,17 @@ a {
 
 .site-info {
   float: none !important;
+  margin: 0 !important;
 }
 
 .site-name {
   margin: 0 !important;
   font-family: "DM Sans", Arial, sans-serif !important;
-  font-size: 19px !important;
+  font-size: 24px !important;
   line-height: 1 !important;
-  font-weight: 650 !important;
-  letter-spacing: -0.035em;
+  font-weight: 600 !important;
+  letter-spacing: -0.035em !important;
+  text-transform: none;
 }
 
 .site-name a {
@@ -88,19 +101,19 @@ a {
 }
 
 .site-description {
-  margin: 7px 0 0 !important;
+  margin: 8px 0 0 !important;
   color: var(--muted) !important;
-  font-size: 12px !important;
+  font-size: 13px !important;
   line-height: 1.2 !important;
   font-weight: 500;
 }
 
 nav {
   float: none !important;
-  margin: 0 !important;
+  margin: 0 0 0 auto !important;
   display: flex;
-  gap: 26px;
-  font-size: 13px !important;
+  gap: 30px;
+  font-size: 15px !important;
   line-height: 1 !important;
 }
 
@@ -115,11 +128,6 @@ nav a:hover {
   color: var(--blue) !important;
 }
 
-.wrapper-masthead .container {
-  max-width: none !important;
-  padding-left: 32px !important;
-  padding-right: 32px !important;
-}
 
 /* MAIN
 -------------------------------------------------- */
@@ -127,6 +135,29 @@ nav a:hover {
 #main {
   width: auto !important;
   max-width: 1440px !important;
+}
+
+#main > p,
+#main > ul,
+#main > ol,
+#main > blockquote {
+  max-width: 720px;
+}
+
+#main a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+#main a:hover {
+  color: var(--blue) !important;
+}
+
+#main > h1 {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
 
@@ -196,94 +227,9 @@ nav a:hover {
 }
 
 
-/* GENERAL CONTENT
+/* WORK
 -------------------------------------------------- */
 
-#main > p,
-#main > ul,
-#main > ol,
-#main > blockquote {
-  max-width: 720px;
-}
-
-#main a {
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-}
-
-#main a:hover {
-  color: var(--blue) !important;
-}
-
-#main > h1 {
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-/* FOOTER
--------------------------------------------------- */
-
-.wrapper-footer {
-  margin-top: 60px !important;
-  background: transparent !important;
-  border-top: 1px solid var(--line) !important;
-  border-bottom: 0 !important;
-}
-
-footer {
-  padding: 22px 0 42px !important;
-}
-   .site-name {
-  font-size: 24px !important;
-  line-height: 1 !important;
-  font-weight: 600 !important;
-  letter-spacing: -0.035em !important;
-  text-transform: none;
-}
-
-.site-description {
-  font-size: 13px !important;
-  margin-top: 8px !important;
-}
-
-nav {
-  font-size: 15px !important;
-  gap: 30px;
-}
-
-.masthead {
-  min-height: 0;
-  padding-top: 24px !important;
-  padding-bottom: 22px !important;
-  align-items: flex-start;
-}
-
-.footer-inner {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 30px;
-  font-size: 13px;
-  color: var(--muted);
-}
-
-.footer-right {
-  display: flex;
-  gap: 22px;
-}
-
-.footer-inner a {
-  color: var(--muted) !important;
-  text-decoration: none !important;
-}
-
-.footer-inner a:hover {
-  color: var(--blue) !important;
-}
-
-/* WORK */
 .work-list {
   margin-top: 48px;
   border-top: 1px solid var(--text);
@@ -325,6 +271,7 @@ nav {
   color: var(--blue) !important;
 }
 
+
 /* WRITING
 -------------------------------------------------- */
 
@@ -359,6 +306,7 @@ nav {
   font-size: 15px;
   line-height: 1.45;
 }
+
 
 /* BLOG
 -------------------------------------------------- */
@@ -397,77 +345,6 @@ nav {
   line-height: 1.5;
 }
 
-/* MOBILE
--------------------------------------------------- */
-
-@media screen and (max-width: 700px) {
-
-  .container {
-    padding-left: 18px !important;
-    padding-right: 18px !important;
-  }
-
-  .masthead {
-    min-height: 0;
-    display: block;
-    padding: 20px 0 18px !important;
-  }
-
-  nav {
-    margin-top: 25px !important;
-    gap: 18px;
-    flex-wrap: wrap;
-  }
-
-  .home-intro {
-    min-height: 60vh;
-    padding: 34px 0 50px;
-  }
-
-  .home-statement {
-    margin-top: 90px !important;
-    font-size: 39px !important;
-    line-height: 1.01 !important;
-  }
-
-  .home-about {
-    grid-template-columns: 1fr;
-    gap: 30px;
-    padding: 22px 0 55px;
-  }
-
-  .section-content {
-    font-size: 18px;
-  }
-
-}
-
-/* HEADER ALIGNMENT */
-.wrapper-masthead .container {
-  width: 100% !important;
-  max-width: none !important;
-  margin: 0 !important;
-  padding-left: 72px !important;
-  padding-right: 72px !important;
-}
-
-.wrapper-masthead .masthead {
-  width: 100% !important;
-  max-width: none !important;
-  margin-left: 0 !important;
-  margin-right: 0 !important;
-}
-
-.wrapper-masthead .site-info {
-  float: none !important;
-  margin: 0 !important;
-}
-
-.wrapper-masthead nav {
-  float: none !important;
-  margin-left: auto !important;
-  margin-right: 0 !important;
-}
 
 /* PROJECT PAGES
 -------------------------------------------------- */
@@ -528,7 +405,92 @@ nav {
   aspect-ratio: 4 / 3;
 }
 
+
+/* FOOTER
+-------------------------------------------------- */
+
+.wrapper-footer {
+  margin-top: 60px !important;
+  background: transparent !important;
+  border-top: 1px solid var(--line) !important;
+  border-bottom: 0 !important;
+}
+
+footer {
+  padding: 22px 0 42px !important;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.footer-right {
+  display: flex;
+  gap: 22px;
+}
+
+.footer-inner a {
+  color: var(--muted) !important;
+  text-decoration: none !important;
+}
+
+.footer-inner a:hover {
+  color: var(--blue) !important;
+}
+
+
+/* MOBILE
+-------------------------------------------------- */
+
 @media screen and (max-width: 700px) {
+
+  .container {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  .wrapper-masthead .container {
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+  }
+
+  .masthead {
+    display: block;
+    padding: 20px 0 18px !important;
+  }
+
+  nav {
+    margin-top: 25px !important;
+    gap: 18px;
+    flex-wrap: wrap;
+  }
+
+  .home-intro {
+    min-height: 60vh;
+    padding: 34px 0 50px;
+  }
+
+  .home-statement {
+    margin-top: 90px !important;
+    font-size: 39px !important;
+    line-height: 1.01 !important;
+  }
+
+  .home-about {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    padding: 22px 0 55px;
+  }
+
+  .section-content {
+    font-size: 18px;
+  }
+
   .project-meta {
     flex-direction: column;
     gap: 4px;
