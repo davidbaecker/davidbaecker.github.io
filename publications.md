@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Publications
+title: Writing
 permalink: /publications/
 ---
 <div class="writing-list">
