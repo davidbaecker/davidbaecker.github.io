@@ -324,10 +324,12 @@ nav {
   }
 
 }
+
 /* HEADER ALIGNMENT */
 .wrapper-masthead .container {
   width: 100% !important;
   max-width: none !important;
+  margin: 0 !important;
   padding-left: 72px !important;
   padding-right: 72px !important;
 }
@@ -335,9 +337,17 @@ nav {
 .wrapper-masthead .masthead {
   width: 100% !important;
   max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.wrapper-masthead .site-info {
+  float: none !important;
   margin: 0 !important;
 }
 
-.site-info {
-  margin: 0 !important;
+.wrapper-masthead nav {
+  float: none !important;
+  margin-left: auto !important;
+  margin-right: 0 !important;
 }
