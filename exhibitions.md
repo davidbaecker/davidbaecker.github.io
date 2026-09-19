@@ -7,7 +7,9 @@ permalink: /exhibitions/
 <div class="work-list">
 
   <div class="work-item">
-    <div class="work-title">MAGISCHE FRAUEN</div>
+    <div class="work-title">
+  <a href="{{ site.baseurl }}/work/magische-frauen/">MAGISCHE FRAUEN</a>
+</div>
     <div class="work-meta">Draiflessen Collection, Mettingen · 2024–2026</div>
     <div class="work-role">Curatorial Assistant</div>
   </div>
