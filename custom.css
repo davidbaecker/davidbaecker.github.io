@@ -236,11 +236,11 @@ footer {
   padding: 22px 0 42px !important;
 }
    .site-name {
-  font-size: 28px !important;
-  line-height: 0.9 !important;
+  font-size: 24px !important;
+  line-height: 1 !important;
   font-weight: 600 !important;
-  letter-spacing: -0.045em !important;
-  text-transform: uppercase;
+  letter-spacing: -0.035em !important;
+  text-transform: none;
 }
 
 .site-description {
@@ -249,7 +249,7 @@ footer {
 }
 
 nav {
-  font-size: 14px !important;
+  font-size: 15px !important;
   gap: 30px;
 }
 
