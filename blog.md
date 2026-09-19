@@ -4,17 +4,30 @@ title: Blog
 permalink: /blog/
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div class="blog-list">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  <article class="blog-item">
+    <div class="blog-date">[Month Year]</div>
+    <h2 class="blog-title">[Title of first text]</h2>
+    <p class="blog-excerpt">
+      [A short introduction or excerpt from the text.]
+    </p>
+  </article>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+  <article class="blog-item">
+    <div class="blog-date">[Month Year]</div>
+    <h2 class="blog-title">[Title of second text]</h2>
+    <p class="blog-excerpt">
+      [A short introduction or excerpt from the text.]
+    </p>
+  </article>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+  <article class="blog-item">
+    <div class="blog-date">[Month Year]</div>
+    <h2 class="blog-title">[Title of third text]</h2>
+    <p class="blog-excerpt">
+      [A short introduction or excerpt from the text.]
+    </p>
+  </article>
+
 </div>
