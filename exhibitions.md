@@ -15,25 +15,33 @@ permalink: /exhibitions/
   </div>
 
   <div class="work-item">
-    <div class="work-title">KOREALITY</div>
+    <div class="work-title">
+  <a href="{{ site.baseurl }}/work/koreality/">KOREALITY</a>
+</div>
     <div class="work-meta">bodytalk · 2023</div>
     <div class="work-role">Production Manager</div>
   </div>
 
   <div class="work-item">
-    <div class="work-title">Hülle und Kern. Multiples von Joseph Beuys</div>
+    <div class="work-title">
+  <a href="{{ site.baseurl }}/work/beuys/">Hülle und Kern. Multiples von Joseph Beuys</a>
+</div>
     <div class="work-meta">LWL-Museum für Kunst und Kultur, Münster · 2018–2019</div>
     <div class="work-role">Co-Curator</div>
   </div>
 
   <div class="work-item">
-    <div class="work-title">Artists For Refugees</div>
+    <div class="work-title">
+  <a href="{{ site.baseurl }}/work/refugees/">Artists For Refugees</a>
+</div>
     <div class="work-meta">Halle (Saale) · 2015</div>
     <div class="work-role">Curator</div>
   </div>
 
   <div class="work-item">
-    <div class="work-title">Die (Un)Möglichkeit der Erkenntnis</div>
+    <div class="work-title">
+  <a href="{{ site.baseurl }}/work/erkenntnis/">Die (Un)Möglichkeit der Erkenntnis</a>
+</div>
     <div class="work-meta">Halle (Saale) · 2014–2015</div>
     <div class="work-role">Curator</div>
   </div>
