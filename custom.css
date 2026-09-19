@@ -243,8 +243,10 @@ nav {
 }
 
 .masthead {
-  padding-top: 30px !important;
-  padding-bottom: 28px !important;
+  min-height: 0;
+  padding-top: 24px !important;
+  padding-bottom: 22px !important;
+  align-items: flex-start;
 }
 
 /* WORK */
