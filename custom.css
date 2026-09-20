@@ -179,7 +179,7 @@ nav a:hover {
 
 .home-statement {
   max-width: 850px;
-  margin: 72px 0 0 !important;
+  margin: 44px 0 0 !important;
   color: var(--text) !important;
   font-family: "DM Sans", Arial, sans-serif !important;
   font-size: clamp(32px, 3.2vw, 46px) !important;
