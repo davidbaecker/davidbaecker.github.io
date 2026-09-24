@@ -310,7 +310,7 @@ nav a:hover {
 .blog-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-gap: 56px 24px;
+  gap: 56px 24px;
   margin-top: 32px;
   padding-top: 32px;
   border-top: 1px solid var(--text);
