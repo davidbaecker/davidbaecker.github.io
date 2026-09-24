@@ -12,10 +12,9 @@ permalink: /exhibitions/
   </div>
 
   <div class="work-details">
-    <div>Draiflessen Collection, Mettingen</div>
-    <div>2024–2026</div>
-    <div class="work-role">Curatorial Assistant</div>
-  </div>
+  <div>Draiflessen Collection, Mettingen · 2024–2026</div>
+  <div class="work-role">Curatorial Assistant</div>
+</div>
 </div>
 
   <div class="work-item">
