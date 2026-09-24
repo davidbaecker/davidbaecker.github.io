@@ -507,7 +507,7 @@ footer {
 }
 
 /* WORK — TEST */
-.work-item-test {
+.work-item.work-item-test {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
