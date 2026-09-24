@@ -506,6 +506,8 @@ footer {
   gap: 48px;
 }
 
+  } /* Ende MOBILE */
+
 /* WORK — TEST */
 .work-item.work-item-test {
   display: grid;
