@@ -4,30 +4,30 @@ title: Blog
 permalink: /blog/
 ---
 
-<div class="blog-list">
+<div class="blog-grid">
 
-  <article class="blog-item">
-    <div class="blog-date">[Month Year]</div>
+  <article class="blog-card">
+    <div class="blog-image placeholder">
+      <span>Image</span>
+    </div>
     <h2 class="blog-title">[Title of first text]</h2>
-    <p class="blog-excerpt">
-      [A short introduction or excerpt from the text.]
-    </p>
+    <div class="blog-date">[Month Year]</div>
   </article>
 
-  <article class="blog-item">
-    <div class="blog-date">[Month Year]</div>
+  <article class="blog-card">
+    <div class="blog-image placeholder">
+      <span>Image</span>
+    </div>
     <h2 class="blog-title">[Title of second text]</h2>
-    <p class="blog-excerpt">
-      [A short introduction or excerpt from the text.]
-    </p>
+    <div class="blog-date">[Month Year]</div>
   </article>
 
-  <article class="blog-item">
-    <div class="blog-date">[Month Year]</div>
+  <article class="blog-card">
+    <div class="blog-image placeholder">
+      <span>Image</span>
+    </div>
     <h2 class="blog-title">[Title of third text]</h2>
-    <p class="blog-excerpt">
-      [A short introduction or excerpt from the text.]
-    </p>
+    <div class="blog-date">[Month Year]</div>
   </article>
 
 </div>
