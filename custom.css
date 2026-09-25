@@ -117,27 +117,22 @@ nav {
   line-height: 1 !important;
 }
 
-nav a {
+nav a,
+nav .nav-inactive {
   margin: 0 !important;
   color: var(--text) !important;
   font-weight: 550 !important;
   text-decoration: none !important;
 }
 
-.nav-inactive {
-  color: var(--text);
-  font-weight: 550;
+nav .nav-inactive {
   cursor: default;
 }
 
-.nav-inactive:hover {
-  color: var(--blue);
-  text-decoration: line-through;
-  text-decoration-thickness: 1px;
-}
-
-nav a:hover {
+nav .nav-inactive:hover {
   color: var(--blue) !important;
+  text-decoration: line-through !important;
+  text-decoration-thickness: 1px !important;
 }
 
 
