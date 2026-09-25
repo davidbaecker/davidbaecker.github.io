@@ -126,10 +126,12 @@ nav a {
 
 .nav-inactive {
   color: var(--text);
+  font-weight: 550;
   cursor: default;
 }
 
 .nav-inactive:hover {
+  color: var(--blue);
   text-decoration: line-through;
   text-decoration-thickness: 1px;
 }
