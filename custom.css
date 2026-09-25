@@ -124,6 +124,16 @@ nav a {
   text-decoration: none !important;
 }
 
+.nav-inactive {
+  color: var(--text);
+  cursor: default;
+}
+
+.nav-inactive:hover {
+  text-decoration: line-through;
+  text-decoration-thickness: 1px;
+}
+
 nav a:hover {
   color: var(--blue) !important;
 }
