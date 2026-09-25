@@ -125,14 +125,30 @@ nav .nav-inactive {
   text-decoration: none !important;
 }
 
+nav a:hover {
+  color: var(--blue) !important;
+}
+
 nav .nav-inactive {
+  position: relative;
   cursor: default;
 }
 
-nav .nav-inactive:hover {
-  color: var(--blue) !important;
-  text-decoration: line-through !important;
-  text-decoration-thickness: 1px !important;
+nav .nav-inactive::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  height: 1px;
+  background: var(--blue);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.15s ease;
+}
+
+nav .nav-inactive:hover::after {
+  transform: scaleX(1);
 }
 
 
