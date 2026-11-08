@@ -2,6 +2,8 @@
 layout: page
 title: KOREALITY
 permalink: /work/koreality/
+lang: en
+translation: /de/arbeiten/koreality/
 ---
 
 <div class="project">
