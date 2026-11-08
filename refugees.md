@@ -2,6 +2,8 @@
 layout: page
 title: Artists for Refugees
 permalink: /work/refugees/
+lang: en
+translation: /de/arbeiten/refugees/
 ---
 
 <div class="project">
