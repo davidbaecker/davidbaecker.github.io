@@ -2,6 +2,8 @@
 layout: page
 title: Hülle und Kern. Multiples von Joseph Beuys
 permalink: /work/beuys/
+lang: en
+translation: /de/arbeiten/beuys/
 ---
 
 <div class="project">
