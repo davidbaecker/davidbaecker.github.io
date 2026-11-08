@@ -177,10 +177,6 @@ nav {
   display: none;
 }
 
-.language-arrow {
-  margin-left: 8px;
-}
-
 .language-switch summary:hover,
 .language-switch[open] summary {
   color: var(--blue);
