@@ -30,16 +30,23 @@
     <a href="{{ site.baseurl }}/de/arbeiten/">Arbeiten</a>
     <a href="{{ site.baseurl }}/de/texte/">Texte</a>
     <span class="nav-inactive">Blog</span>
-    <a href="{{ page.translation | default: '/' }}">EN</a>
-    <span class="nav-inactive">DE</span>
   {% else %}
     <a href="{{ site.baseurl }}/">About</a>
     <a href="{{ site.baseurl }}/exhibitions">Work</a>
     <a href="{{ site.baseurl }}/publications">Writing</a>
     <span class="nav-inactive">Blog</span>
-    <span class="nav-inactive">EN</span>
-    <a href="{{ page.translation | default: '/de/' }}">DE</a>
   {% endif %}
+
+  <details class="language-switch">
+    <summary>{% if page.lang == "de" %}DE{% else %}EN{% endif %}<span class="language-arrow">⌄</span></summary>
+    <div class="language-menu">
+      {% if page.lang == "de" %}
+        <a href="{{ page.translation | default: '/' }}">EN</a>
+      {% else %}
+        <a href="{{ page.translation | default: '/de/' }}">DE</a>
+      {% endif %}
+    </div>
+  </details>
 </nav>
         </header>
       </div>
