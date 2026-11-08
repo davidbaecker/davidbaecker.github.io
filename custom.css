@@ -150,7 +150,64 @@ nav .nav-inactive::after {
 nav .nav-inactive:hover::after {
   transform: scaleX(1);
 }
+/* LANGUAGE SWITCH
+-------------------------------------------------- */
 
+nav {
+  align-items: center;
+}
+
+.language-switch {
+  position: relative;
+  margin-left: 4px;
+  font-size: 13px;
+}
+
+.language-switch summary {
+  list-style: none;
+  cursor: pointer;
+  border: 1px solid var(--line);
+  padding: 7px 10px;
+  color: var(--text);
+  font-weight: 600;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.language-switch summary::-webkit-details-marker {
+  display: none;
+}
+
+.language-arrow {
+  margin-left: 8px;
+}
+
+.language-switch summary:hover,
+.language-switch[open] summary {
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.language-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  min-width: 100%;
+  padding: 5px 0;
+  background: var(--bg);
+  border: 1px solid var(--line);
+  z-index: 10;
+}
+
+.language-menu a {
+  display: block;
+  padding: 7px 10px;
+  color: var(--text) !important;
+  text-decoration: none !important;
+}
+
+.language-menu a:hover {
+  color: var(--blue) !important;
+}
 
 /* MAIN
 -------------------------------------------------- */
