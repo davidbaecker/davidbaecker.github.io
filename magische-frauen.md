@@ -2,6 +2,8 @@
 layout: page
 title: MAGISCHE FRAUEN
 permalink: /work/magische-frauen/
+lang: en
+translation: /de/arbeiten/magische-frauen/
 ---
 <div class="project">
 
