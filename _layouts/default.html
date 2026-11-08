@@ -38,7 +38,7 @@
   {% endif %}
 
   <details class="language-switch">
-    <summary>{% if page.lang == "de" %}DE{% else %}EN{% endif %}<span class="language-arrow">⌄</span></summary>
+    <summary>{% if page.lang == "de" %}DE{% else %}EN{% endif %}</summary>
     <div class="language-menu">
       {% if page.lang == "de" %}
         <a href="{{ page.translation | default: '/' }}">EN</a>
