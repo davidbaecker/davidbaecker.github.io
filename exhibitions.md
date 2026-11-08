@@ -2,6 +2,8 @@
 layout: page
 title: Work
 permalink: /exhibitions/
+lang: en
+translation: /de/arbeiten/
 ---
 
 <div class="work-list">
